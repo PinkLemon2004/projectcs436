@@ -63,7 +63,7 @@ app.use((req, res, next) => {
 // Database Configuration
 const dbConfig = {
     user: process.env.DB_USER || 'projectcs436',
-    password: process.env.DB_PASSWORD || '.cs436team',
+    password: process.env.DB_PASSWORD || '์Nuey',
     server: process.env.DB_SERVER || 'prohectcs436database.database.windows.net',
     database: process.env.DB_NAME || 'ProjectCS436',
     options: {
